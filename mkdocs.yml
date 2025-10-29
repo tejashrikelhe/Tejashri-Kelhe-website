@@ -1,0 +1,43 @@
+site_name: Tejashri Kelhe 
+site_description: Personal website and portfolio
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - toc.integrate
+    - content.code.copy
+    - header.autohide
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: indigo
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Experience: experience.md
+  - Projects: projects.md
+  - Publications: publications.md
+  - Skills: skills.md
+  - Contact: contact.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+  - attr_list
