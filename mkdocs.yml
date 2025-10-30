@@ -11,11 +11,11 @@ theme:
     - content.code.copy
     - header.autohide
   palette:
-    - media: "(prefers-color-scheme: light)"
+    - media: "(prefers-color-scheme: dark)"
       scheme: default
       primary: blue
       accent: indigo
-    - media: "(prefers-color-scheme: dark)"
+    - media: "(prefers-color-scheme: light)"
       scheme: slate
       primary: green
       accent: teal
