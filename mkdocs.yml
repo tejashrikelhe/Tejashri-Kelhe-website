@@ -17,8 +17,8 @@ theme:
       accent: indigo
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: indigo
+      primary: green
+      accent: teal
 
 nav:
   - Home: index.md
