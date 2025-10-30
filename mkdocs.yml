@@ -11,14 +11,10 @@ theme:
     - content.code.copy
     - header.autohide
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: default
-      primary: white
-      accent: white
-    - media: "(prefers-color-scheme: light)"
-      scheme: slate
-      primary: green
-      accent: teal
+  - scheme: default
+    primary: blue
+    accent: indigo
+
 
 nav:
   - Home: index.md
