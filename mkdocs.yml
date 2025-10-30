@@ -14,6 +14,8 @@ theme:
   - scheme: default
     primary: green
     accent: teal
+  extra_css:
+  - assets/custom.css
 
 
 nav:
@@ -21,8 +23,9 @@ nav:
   - About: about.md
   - Experience: experience.md
   - Projects: projects.md
-  - Publications: publications.md
+  - Research: research.md
   - Skills: skills.md
+  - Patent: patent.md
   - Contact: contact.md
 
 plugins:
@@ -38,6 +41,6 @@ markdown_extensions:
   - pymdownx.emoji
   - attr_list
 
-extra_css:
-  - assets/custom.css
+
+
 

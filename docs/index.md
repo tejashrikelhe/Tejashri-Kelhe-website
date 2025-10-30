@@ -1,15 +1,24 @@
 # Tejashri Kelhe
 
-Machine Learning Engineer
+# Building ML Systems that Actually Ship
 
-> I build practical AI systems that create value in the real world. My focus is ML engineering, data science, distributed training, and AI systems that blends agent based models with deep learning.
+I am **Tejashri Kelhe**, a Machine Learning Engineer and Researcher who builds AI systems for high-stakes domains like semiconductor manufacturing, biosecurity, and financial risk.
 
-- MS Data Science, Texas A&M University  
-- Machine Learning Engineer at Texas A&M AgriLife Research  
-- ML Engineer at Micron Technology  
-- Patent: Attention Based Feature Selection in DNNs  
+I combine **distributed ML**, **Bayesian and causal modeling**, and **agent-based simulation** to move models from idea to production.
+
+- Machine Learning Engineer, **Texas A&M AgriLife Research**
+- Former **Micron Technology** (ML Engineer, Data Sciences)
+- Former **AT&T** (Data Scientist, ML microservices)
+- U.S. Patent Holder: *Attention-Based Feature Selection in DNNs*
+- Peer Reviewer, **Expert Systems with Applications (Elsevier)**
+- IEEE Published (2020, 2021, 2025)
 
 [Download Resume](assets/Tejashri_Kelhe_CV.pdf){ .md-button .md-button--primary }  
 [GitHub](https://github.com/tejashrikelhe){ .md-button }  
 [LinkedIn](https://www.linkedin.com/in/tejashri-kelhe/){ .md-button }  
-[Email](mailto:tejashri.kelhe@gmail.com){ .md-button }
+[Contact](mailto:tejashri.kelhe@gmail.com){ .md-button }
+[View Experience](experience.md){ .md-button }
+[Research & Publications](research.md){ .md-button }
+[Featured Projects](projects.md){ .md-button }
+
+
