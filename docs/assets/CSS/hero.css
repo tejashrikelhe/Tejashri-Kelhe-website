@@ -1,76 +1,107 @@
+/* hero */
 .hero-section {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 60px;
-    margin-top: 40px;
-    flex-wrap: nowrap;
-    padding: 40px 5%;
+    gap: 50px;
+    margin-top: 20px;
+    padding: 0 1.5rem;
+    flex-wrap: wrap;
   }
-  
   .hero-image img {
-    width: 300px;
+    width: 115px; /* half the original size */
     border-radius: 50%;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
   }
-  
-  .hero-image img:hover {
-    transform: scale(1.05);
-  }
-  
   .hero-text {
-    max-width: 700px;
-    text-align: left;
-    color: #222;
-  }
-  
-  .hero-text h1 {
-    font-size: 1.9em;
-    font-weight: 600;
-    margin-bottom: 15px;
+    max-width: 650px;
     color: #000;
   }
-  
-  .hero-text p {
-    font-size: 1.05em;
-    line-height: 1.6em;
-    color: #333;
-  }
-  
-  .hero-subtext {
-    margin-top: 10px;
-    color: #555;
-    font-size: 0.95em;
-  }
-  
   .hero-btn {
     display: inline-block;
-    margin-top: 25px;
-    background-color: #2e7d32;
-    color: white;
-    padding: 10px 20px;
+    margin-top: 15px;
+    background: #2e7d32;
+    color: #fff;
+    padding: 8px 16px;
     border-radius: 6px;
     text-decoration: none;
     font-weight: 500;
-    transition: background-color 0.2s ease;
   }
   
-  .hero-btn:hover {
-    background-color: #256927;
+  /* left buttons */
+  .tk-left-actions {
+    margin-top: 1.8rem;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 190px;
+  }
+  .tk-btn {
+    background: #eef2ff;
+    color: #1d28a4;
+    padding: 0.45rem 0.7rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: 1px solid rgba(29,40,164,0.1);
+  }
+  .tk-btn:hover {
+    background: #e0e7ff;
   }
   
-  /* Responsive for mobile */
-  @media (max-width: 768px) {
+  /* timeline width and styling */
+  .tk-timeline-wrapper {
+    max-width: 850px;
+    margin: 2rem auto 4rem auto;
+    padding: 0 1rem;
+  }
+  .tk-timeline {
+    position: relative;
+    padding-left: 1.5rem;
+    border-left: 3px solid #0f766e;
+  }
+  .tk-timeline > * {
+    position: relative;
+    margin-bottom: 1.4rem;
+  }
+  .tk-timeline > *::before {
+    content: "";
+    position: absolute;
+    left: -1.08rem;
+    top: 0.4rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background: #0f766e;
+    border-radius: 9999px;
+    box-shadow: 0 0 0 3px #e0f2f1;
+  }
+  .tag {
+    display: inline-block;
+    background: #e0f2f1;
+    color: #0f766e;
+    padding: 0.12rem 0.55rem;
+    border-radius: 9999px;
+    font-size: 0.65rem;
+    margin-right: 0.25rem;
+    margin-top: 0.25rem;
+  }
+  
+  /* mobile */
+  @media (max-width: 900px) {
     .hero-section {
       flex-direction: column;
       text-align: center;
     }
     .hero-text {
-      text-align: center;
+      text-align: left;
     }
-    .hero-image img {
-      width: 220px;
+    .tk-left-actions {
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: none;
+    }
+    .tk-timeline-wrapper {
+      max-width: 100%;
     }
   }
   
