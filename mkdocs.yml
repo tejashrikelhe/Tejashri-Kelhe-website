@@ -15,7 +15,7 @@ theme:
     primary: dark blue
     accent: teal
   extra_css:
-  - assets/custom.css
+  - assets/CSS/custom.css
   - assets/CSS/hero.css
 
 
