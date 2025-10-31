@@ -12,7 +12,7 @@ theme:
     - header.autohide
   palette:
   - scheme: default
-    primary: purple
+    primary: dark blue
     accent: teal
   extra_css:
   - assets/custom.css
@@ -22,10 +22,10 @@ nav:
   - Home: index.md
   - About: about.md
   - Experience: experience.md
-  - Projects: projects.md
-  - Research: research.md
-  - Skills: skills.md
   - Patent: patent.md
+  - Research: research.md
+  - Projects: projects.md
+  - Skills: skills.md
   - Education: education.md
   - Contact: contact.md
 
