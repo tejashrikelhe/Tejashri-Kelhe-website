@@ -16,7 +16,7 @@ theme:
     accent: teal
   extra_css:
   - assets/custom.css
-  - assets/css/hero.css
+  - assets/CSS/hero.css
 
 
 nav:
