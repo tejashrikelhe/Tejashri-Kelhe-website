@@ -23,3 +23,9 @@ I am open to:
 [LinkedIn](https://www.linkedin.com/in/tejashri-kelhe/){ .md-button }  
 
 [Email](mailto:tejashri.kelhe@gmail.com){ .md-button }
+
+[Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=4&hl=en&user=ztgqzgsAAAAJ&authuser=4){ .md-button }
+
+<a class="scholar-btn" href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=4&hl=en&user=ztgqzgsAAAAJ&authuser=4" target="_blank">
+  View on Google Scholar →
+</a>

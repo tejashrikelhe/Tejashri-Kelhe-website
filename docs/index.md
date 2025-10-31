@@ -37,6 +37,10 @@
   <a class="tk-btn" href="education/">Education</a>
 </div>
 
+<a class="scholar-btn" href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=4&hl=en&user=ztgqzgsAAAAJ&authuser=4" target="_blank">
+  View on Google Scholar →
+</a>
+
 <!-- TIMELINE WRAPPER -->
 <div class="tk-timeline-wrapper">
 

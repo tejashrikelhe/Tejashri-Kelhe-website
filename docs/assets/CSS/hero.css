@@ -109,3 +109,21 @@
     background-color: #f8f7f3;
   }
   
+  /* --- Scholar button style --- */
+.scholar-btn {
+    display: inline-block;
+    background-color: #4285F4;  /* Google Blue */
+    color: white;
+    padding: 0.55rem 0.9rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+    margin-top: 0.8rem;
+  }
+  
+  .scholar-btn:hover {
+    background-color: #3367D6; /* darker blue hover */
+  }
+  

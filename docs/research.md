@@ -2,6 +2,10 @@
 
 My research sits at the intersection of **ML/DL**, **Bayesian ML**, **causal modeling**, and **hybrid AI** for real-world decision systems.
 
+<a class="scholar-btn" href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=4&hl=en&user=ztgqzgsAAAAJ&authuser=4" target="_blank">
+  View on Google Scholar →
+</a>
+
 ## Current Themes
 - Hybrid models: combining agent-based simulation with deep learning
 - Bayesian LSTM for geospatial forecasting (crop yield, disease spread)
