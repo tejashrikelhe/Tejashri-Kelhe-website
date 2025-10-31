@@ -7,7 +7,7 @@
 
   <!-- Left side: Profile Image -->
   <div class="hero-image">
-    <img src="assets/images/tk_profile.png" alt="Tejashri Kanitkar" />
+    <img src="assets/images/profile img website.png" />
   </div>
 
   <!-- Right side: Intro Text -->
