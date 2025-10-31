@@ -8,7 +8,7 @@
     flex-wrap: wrap;
   }
   .hero-image img {
-    width: 150px; /* half the original size */
+    width: 250px; /* half the original size */
     border-radius: 50%;
     box-shadow: 0 0 12px rgba(0,0,0,0.15);
   }
