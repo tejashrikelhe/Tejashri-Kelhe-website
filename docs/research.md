@@ -1,6 +1,6 @@
 # Research, Publications, and Peer Review
 
-My research sits at the intersection of **Bayesian ML**, **causal modeling**, and **hybrid AI** for real-world decision systems.
+My research sits at the intersection of **ML/DL**, **Bayesian ML**, **causal modeling**, and **hybrid AI** for real-world decision systems.
 
 ## Current Themes
 - Hybrid models: combining agent-based simulation with deep learning
@@ -31,5 +31,6 @@ My research sits at the intersection of **Bayesian ML**, **causal modeling**, an
   Focus: rigor, reproducibility, and responsible AI framing.
 
 ## Academic / Lab Collaborations
-- **MIT Lincoln Laboratory** – cross-domain ML benchmarking using distributed GPU clusters  
-- **Texas A&M** – epidemiological ML for livestock and wildlife
+- **MIT Lincoln Laboratory** – Few-shot learning, transfer learning and cross-domain ML benchmarking for underwater acoustic classification using distributed GPU clusters  
+- **AVLL: Advanced Vision & Learning Lab** – Few-shot learning, transfer learning and cross-domain ML for underwater acoustic classification
+- **Texas A&M AgriLife** – epidemiological ML for livestock and wildlife

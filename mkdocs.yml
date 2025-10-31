@@ -42,6 +42,10 @@ markdown_extensions:
   - pymdownx.emoji
   - attr_list
 
+extra_css:
+  - assets/css/hero.css
+
+
 
 
 
