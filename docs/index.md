@@ -46,7 +46,7 @@
 
 ## Timeline
 
-<div class="tk-timeline" markdown>
+<div class="tk-timeline" markdown="1">
 
 ### 2025
 **Machine Learning Engineer, Texas A&M AgriLife Research**  
