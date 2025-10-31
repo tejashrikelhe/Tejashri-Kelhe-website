@@ -12,7 +12,7 @@ theme:
     - header.autohide
   palette:
   - scheme: default
-    primary: green
+    primary: purple
     accent: teal
   extra_css:
   - assets/custom.css
