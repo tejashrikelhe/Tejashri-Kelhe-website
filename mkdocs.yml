@@ -14,9 +14,7 @@ theme:
   - scheme: default
     primary: dark blue
     accent: teal
-  extra_css:
-  - assets/CSS/custom.css
-  - assets/CSS/hero.css
+  
 
 
 nav:
@@ -42,6 +40,10 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.emoji
   - attr_list
+
+extra_css:
+  - assets/CSS/custom1.css
+  - assets/CSS/hero.css
 
   
 

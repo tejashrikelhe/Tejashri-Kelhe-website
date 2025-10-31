@@ -1,0 +1,36 @@
+/* White background and pure black text everywhere */
+:root {
+    --md-default-bg-color: #ffffff;
+    --md-typeset-color: #000000;
+    --md-typeset-a-color: #0056b3; /* link color */
+    --md-typeset-mark-color: #000000;
+    --md-typeset-code-color: #000000;
+  }
+  
+  /* Make all text and list items solid black */
+  .md-typeset,
+  .md-typeset p,
+  .md-typeset li,
+  .md-typeset blockquote {
+    color: #000000 !important;
+  }
+  
+  /* Optional: make headings heavier */
+  .md-typeset h1,
+  .md-typeset h2,
+  .md-typeset h3 {
+    color: #000000 !important;
+    font-weight: 600;
+  }
+  
+  /* Ensure quotes and accents aren't grey */
+  .md-typeset blockquote {
+    border-left: 4px solid #000000;
+    opacity: 1;
+  }
+
+  body {
+    background-color: #f8f7f3;
+  }
+  
+  
