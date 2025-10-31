@@ -12,7 +12,7 @@ theme:
     - header.autohide
   palette:
   - scheme: default
-    primary: maroon
+    primary: green
     accent: maroon
   
 
