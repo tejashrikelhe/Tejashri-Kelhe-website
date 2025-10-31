@@ -41,8 +41,7 @@
   View on Google Scholar →
 </a>
 
-<!-- TIMELINE WRAPPER -->
-<div class="tk-timeline-wrapper">
+
 
 ## Timeline
 
