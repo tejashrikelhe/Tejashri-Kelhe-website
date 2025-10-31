@@ -14,9 +14,6 @@ I combine **distributed ML**, **Bayesian and causal modeling**, and **agent-base
 - IEEE Published (2020, 2021, 2025)
 
 [Download Resume](assets/Tejashri_Kelhe_CV.pdf){ .md-button .md-button--primary }  
-[GitHub](https://github.com/tejashrikelhe){ .md-button }  
-[LinkedIn](https://www.linkedin.com/in/tejashri-kelhe/){ .md-button }  
-[Contact](mailto:tejashri.kelhe@gmail.com){ .md-button }
 [View Experience](experience.md){ .md-button }
 [Research & Publications](research.md){ .md-button }
 [Featured Projects](projects.md){ .md-button }

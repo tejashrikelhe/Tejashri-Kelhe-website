@@ -15,7 +15,7 @@ Applied Mathematics · Machine Learning · Deep Learning · Natural Language Pro
 - **Directed Studies (Research):** _Bayesian LSTM Forecasting Models for Geospatial Yield Prediction_  
 - **Graduate Teaching Assistant** for:  
   1. Computational Data Science  
-  2. Machine Learning & Algorithms  
+  2. Machine Learning Engineering   
 - **Collaborations:**  
   - *MIT Lincoln Laboratory* — Transfer Learning, Few-Shot Learning, Cross-Domain ML, Distributed GPU Training  
   - *Baylor Scott & White Health* — Generative AI, Explainable & Responsible AI Research  

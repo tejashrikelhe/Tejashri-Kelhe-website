@@ -8,7 +8,9 @@ I am open to:
 - Collaborations on AI and XAI
 - Industry–academic partnerships
 
-**Email:** tejashri.kelhe@gmail.com
-**LinkedIn:** https://www.linkedin.com/in/tejashri-kelhe/
-**GitHub:** https://github.com/tejashrikelhe  
 **Location:** United States of America (USA)
+
+**Contact:** tejashri.kelhe@gmail.com
+[GitHub](https://github.com/tejashrikelhe){ .md-button }  
+[LinkedIn](https://www.linkedin.com/in/tejashri-kelhe/){ .md-button }  
+[Email](mailto:tejashri.kelhe@gmail.com){ .md-button }
