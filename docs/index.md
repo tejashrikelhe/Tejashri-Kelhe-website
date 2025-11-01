@@ -1,6 +1,6 @@
 # Tejashri Kelhe
 
-# Building real-time, high-throughput, and low-latency scalable machine learning systems
+# Building real-time, high-throughput, and low-latency scalable systems
 
 <!-- Hero Section -->
 <div class="hero-section">
@@ -12,11 +12,12 @@
 
   <!-- Right side: Intro Text -->
   <div class="hero-text">
-    <p>Hi! I am <strong>Tejashri Kelhe</strong>, a Machine Learning Engineer and Researcher who builds AI systems for high-stakes domains like semiconductor manufacturing, biosecurity, and financial risk.</p>
-    <p>I combine <strong>distributed ML</strong>, <strong>Bayesian and causal modeling</strong>, and <strong>agent-based simulation</strong> to move models from idea to production.</p>
+    <p>Hi! I am <strong>Tejashri Kelhe</strong>, an AI systems expert and Software Engineer specializing in the full-stack development of production Machine Learning systems. I focus on algorithmic optimization and distributed computing to architect and deploy high-throughput, low-latency systems. My mission is to efficiently scale advanced AI research into robust, high-performance, and mission-critical solutions.</p>
+
+    My approach integrates the analytical rigor of a Data Scientist (understanding the problem and data), the scalability mindset of a Software Engineer (building robust, maintainable systems), and the production focus of an Machine Learning Engineer (deploying and managing models at scale). The common thread is always optimization for performance, cost, and accuracy.
 
     <ul>
-      <li>Machine Learning Engineer, <strong>Texas A&M AgriLife Research</strong></li>
+      <li>Current <strong>Texas A&M AgriLife Research</strong>(Software Development, ML/AI)</li>
       <li>Former <strong>Micron Technology</strong> (ML Engineer, Data Sciences)</li>
       <li>Former <strong>AT&T</strong> (Data Scientist, ML microservices)</li>
       <li>U.S. Patent Holder: <em>Attention-Based Feature Selection in DNNs</em></li>
