@@ -41,6 +41,9 @@
   View on Google Scholar →
 </a>
 
+</div>
+
+</div>
 
 
 ## Timeline
@@ -195,6 +198,4 @@ University Gold Medalist. Specialized in Systems + ML integration.
 
 <span class="tag">C++</span> <span class="tag">DSA</span> <span class="tag">DBMS</span> <span class="tag">OS</span>
 
-</div>
 
-</div>
