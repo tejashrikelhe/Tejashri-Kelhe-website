@@ -11,9 +11,13 @@ This invention automates feature engineering for **high-dimensional tabular data
 
 ### Key Problem It Solves
 Traditional ML pipelines struggle with:
+
 - very large numbers of input features
+
 - expensive manual feature selection
+
 - loss of important nonlinear interactions
+
 
 This approach uses **attention to select relevant features first**, so models become **faster, lighter, and more accurate**.
 
