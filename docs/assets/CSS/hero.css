@@ -1,4 +1,4 @@
-/* hero */
+/* ====== HERO SECTION ====== */
 .hero-section {
     display: flex;
     align-items: center;
@@ -7,15 +7,19 @@
     padding: 0 1.5rem;
     flex-wrap: wrap;
   }
+  
   .hero-image img {
-    width: 350px; /* half the original size */
+    width: 175px;             /* smaller profile image */
     border-radius: 50%;
     box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    object-fit: cover;
   }
+  
   .hero-text {
     max-width: 650px;
     color: #000;
   }
+  
   .hero-btn {
     display: inline-block;
     margin-top: 15px;
@@ -27,7 +31,7 @@
     font-weight: 500;
   }
   
-  /* left buttons */
+  /* ====== LEFT ACTION BUTTONS (HOME, PROJECTS, EDUCATION) ====== */
   .tk-left-actions {
     margin-top: 1.8rem;
     margin-left: 1.5rem;
@@ -36,6 +40,7 @@
     gap: 0.5rem;
     max-width: 190px;
   }
+  
   .tk-btn {
     background: #eef2ff;
     color: #6c75dc;
@@ -45,23 +50,32 @@
     font-size: 0.9rem;
     border: 1px solid rgba(29,40,164,0.1);
   }
+  
   .tk-btn:hover {
     background: #e0e7ff;
   }
   
-  /* timeline width and styling */
-  /* timeline styling */
-    
+  /* ====== TIMELINE (LINE ONLY) ====== */
   .tk-timeline {
     position: relative;
     margin: 2rem auto 4rem auto;
     max-width: 850px;
-    padding-left: 1.5rem;
-    border-left: 3px solid #0f766e;
+    border-left: 2px solid #0f766e;   /* line only */
     background: #fffefc;
     border-radius: 8px;
-    padding: 2rem;
+    padding: 2rem 2rem 2rem 1.8rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  /* each item spacing */
+  .tk-timeline > * {
+    position: relative;
+    margin-bottom: 1.4rem;
+  }
+  
+  /* remove circles */
+  .tk-timeline > *::before {
+    content: none;
   }
   
   .tk-timeline h3,
@@ -69,24 +83,8 @@
   .tk-timeline p {
     margin-bottom: 0.6rem;
   }
-
-  .tk-timeline > * {
-    position: relative;
-    margin-bottom: 1.4rem;
-  }
   
-  .tk-timeline > *::before {
-    content: "";
-    position: absolute;
-    left: -1.08rem;
-    top: 0.4rem;
-    width: 0.7rem;
-    height: 0.7rem;
-    background: #0f766e;
-    border-radius: 9999px;
-    box-shadow: 0 0 0 3px #e0f2f1;
-  }
-  
+  /* tags under timeline items */
   .tag {
     display: inline-block;
     background: #e0f2f1;
@@ -98,8 +96,30 @@
     margin-top: 0.25rem;
   }
   
+  /* ====== SCHOLAR BUTTON ====== */
+  .scholar-btn {
+    display: inline-block;
+    background-color: #150447;
+    color: #fff;
+    padding: 0.55rem 0.9rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+    margin-top: 0.8rem;
+  }
   
-  /* mobile */
+  .scholar-btn:hover {
+    background-color: #0f0a2e;
+  }
+  
+  /* ====== GLOBAL BG ====== */
+  body {
+    background-color: #f8f7f3;
+  }
+  
+  /* ====== RESPONSIVE ====== */
   @media (max-width: 900px) {
     .hero-section {
       flex-direction: column;
@@ -113,30 +133,10 @@
       flex-wrap: wrap;
       max-width: none;
     }
-    .tk-timeline-wrapper {
+    .tk-timeline {
       max-width: 100%;
+      margin-left: 0;
+      margin-right: 0;
     }
-  }
-  
-  body {
-    background-color: #f8f7f3;
-  }
-  
-  /* --- Scholar button style --- */
-.scholar-btn {
-    display: inline-block;
-    background-color: #150447;  /* Google Blue */
-    color: rgb(13, 1, 1);
-    padding: 0.55rem 0.9rem;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.9rem;
-    transition: background-color 0.2s ease;
-    margin-top: 0.8rem;
-  }
-  
-  .scholar-btn:hover {
-    background-color: #3367D6; /* darker blue hover */
   }
   

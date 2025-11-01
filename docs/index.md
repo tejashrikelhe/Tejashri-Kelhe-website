@@ -45,7 +45,6 @@
 
 </div>
 
-## Timeline
 
 <div class="tk-timeline" markdown="1">
 
