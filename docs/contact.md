@@ -1,6 +1,7 @@
 # Contact
 
-I am open to:
+**I am open to**:
+
 - ML / Applied Research roles
 
 - Software Engineering roles
