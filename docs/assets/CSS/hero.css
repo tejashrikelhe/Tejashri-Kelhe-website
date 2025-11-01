@@ -12,7 +12,7 @@
     width: 350px;             /* smaller profile image */
     border-radius: 100%;
     box-shadow: 0 0 12px rgba(0,0,0,0.15);
-    object-fit: cover;
+    object-fit: fill;
   }
   
   .hero-text {
