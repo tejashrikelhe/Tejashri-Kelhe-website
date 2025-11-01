@@ -51,18 +51,25 @@
   
   /* timeline width and styling */
   /* timeline styling */
-.tk-timeline {
+    
+  .tk-timeline {
     position: relative;
     margin: 2rem auto 4rem auto;
     max-width: 850px;
     padding-left: 1.5rem;
     border-left: 3px solid #0f766e;
-    background-color: #fffefc; /* slight contrast against off-white */
+    background: #fffefc;
     border-radius: 8px;
     padding: 2rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
   
+  .tk-timeline h3,
+  .tk-timeline h4,
+  .tk-timeline p {
+    margin-bottom: 0.6rem;
+  }
+
   .tk-timeline > * {
     position: relative;
     margin-bottom: 1.4rem;
