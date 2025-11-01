@@ -17,7 +17,7 @@
     My approach integrates the analytical rigor of a Data Scientist (understanding the problem and data), the scalability mindset of a Software Engineer (building robust, maintainable systems), and the production focus of an Machine Learning Engineer (deploying and managing models at scale). The common thread is always optimization for performance, cost, and accuracy.
 
     <ul>
-      <li>Current <strong>Texas A&M AgriLife Research</strong>(Software Development, ML/AI)</li>
+      <li>Current <strong>Texas A&M AgriLife Research</strong> (Software Development, Data Science, ML/AI)</li>
       <li>Former <strong>Micron Technology</strong> (ML Engineer, Data Sciences)</li>
       <li>Former <strong>AT&T</strong> (Data Scientist, ML microservices)</li>
       <li>U.S. Patent Holder: <em>Attention-Based Feature Selection in DNNs</em></li>
@@ -25,7 +25,7 @@
       <li>IEEE Published (2020, 2021, 2025)</li>
     </ul>
 
-    <a class="hero-btn" href="assets/Tejashri_Kelhe_CV.pdf">Download Resume</a>
+    <a class="hero-btn" href="">Download Resume</a>
   </div>
 
 </div>
@@ -33,6 +33,7 @@
 <!-- LEFT SIDE BUTTONS -->
 <div class="tk-left-actions">
   <a class="tk-btn" href="experience/">View Experience</a>
+  <a class="tk-btn" href="patent/">View Patent</a>
   <a class="tk-btn" href="research/">Research & Publications</a>
   <a class="tk-btn" href="projects/">Featured Projects</a>
   <a class="tk-btn" href="education/">Education</a>
@@ -50,7 +51,7 @@
 <div class="tk-timeline" markdown="1">
 
 ### 2025
-**Machine Learning Engineer, Texas A&M AgriLife Research**  
+**Data Scientist (Software Engineering Systems), Texas A&M AgriLife Research**  
 Built distributed ML and hybrid agent-based models for livestock/wildlife disease spread. Improved scenario coverage by **40%** and robustness by **25%**.  
 <span class="tag">Python</span> <span class="tag">PyTorch</span> <span class="tag">Spark</span> <span class="tag">ABM</span> <span class="tag">CUDA</span>
 

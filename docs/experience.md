@@ -1,7 +1,7 @@
 # Experience
 
 ## Texas A&M AgriLife Research
-**Machine Learning Engineer (Data Sciences)**  
+**Data Scientist (Software Engineering Systems)**  
 _Remote, USA · Sept 2025 – Present_
 
 - Built and deployed distributed ML models simulating spatiotemporal disease spread in livestock and wildlife.  

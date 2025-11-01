@@ -19,7 +19,6 @@ theme:
 
 nav:
   - Home: index.md
-  - About: about.md
   - Experience: experience.md
   - Patent: patent.md
   - Research: research.md
