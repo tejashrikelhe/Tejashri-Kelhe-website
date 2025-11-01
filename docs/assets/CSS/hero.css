@@ -9,15 +9,18 @@
   }
   
   .hero-image img {
-    width: 350px;             /* smaller profile image */
-    border-radius: 100%;
+    width: 350px; /* smaller profile image */
+    border-radius: 50%;
     box-shadow: 0 0 12px rgba(0,0,0,0.15);
-    object-fit: fill;
+    object-fit: cover;
   }
   
   .hero-text {
     max-width: 650px;
-    color: #000;
+    color: #1a1308;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    font-family: "Georgia", "Inter", serif;
   }
   
   .hero-btn {
@@ -29,9 +32,10 @@
     border-radius: 6px;
     text-decoration: none;
     font-weight: 500;
+    font-size: 0.95rem;
   }
   
-  /* ====== LEFT ACTION BUTTONS (HOME, PROJECTS, EDUCATION) ====== */
+  /* ====== LEFT ACTION BUTTONS ====== */
   .tk-left-actions {
     margin-top: 1.8rem;
     margin-left: 1.5rem;
@@ -42,58 +46,85 @@
   }
   
   .tk-btn {
-    background: #eef2ff;
-    color: #6c75dc;
-    padding: 0.45rem 0.7rem;
+    background: #f4f1e3;
+    color: #5a5a5a;
+    padding: 0.5rem 0.8rem;
     border-radius: 6px;
     text-decoration: none;
-    font-size: 0.9rem;
-    border: 1px solid rgba(29,40,164,0.1);
+    font-size: 0.95rem;
+    border: 1px solid #d2cbb8;
+    transition: all 0.2s ease;
   }
   
   .tk-btn:hover {
-    background: #e0e7ff;
+    background: #e7dfca;
   }
   
-  /* ====== TIMELINE (LINE ONLY) ====== */
+  /* ====== TIMELINE (PAPER CARD LOOK, LINE ONLY) ====== */
   .tk-timeline {
     position: relative;
-    margin: 2rem auto 4rem auto;
+    margin: 2.5rem auto 4rem auto;
     max-width: 850px;
-    border-left: 2px solid #0f766e;   /* line only */
-    background: #fffefc;
-    border-radius: 8px;
-    padding: 2rem 2rem 2rem 1.8rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-left: 2px solid #a48748;
+    background: #fffdf4;
+    border-radius: 12px;
+    padding: 2.2rem 2.2rem 2rem 2rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07),
+                inset 0 0 6px rgba(255, 250, 225, 0.7);
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #1f1a0d;
+    font-family: "Georgia", "Inter", serif;
+    background-image: linear-gradient(
+        rgba(255, 255, 240, 0.6),
+        rgba(255, 255, 230, 0.6)
+      );
   }
   
-  /* each item spacing */
+  /* spacing between timeline entries */
   .tk-timeline > * {
     position: relative;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.8rem;
   }
   
-  /* remove circles */
+  /* remove bullets */
   .tk-timeline > *::before {
     content: none;
   }
   
-  .tk-timeline h3,
-  .tk-timeline h4,
-  .tk-timeline p {
-    margin-bottom: 0.6rem;
+  /* headings inside timeline */
+  .tk-timeline h3 {
+    font-size: 1.25rem;
+    color: #2b1b02;
+    margin-top: 1.4rem;
+    font-weight: 700;
   }
   
-  /* tags under timeline items */
+  .tk-timeline h4 {
+    font-size: 1.05rem;
+    color: #2c2412;
+    font-weight: 600;
+  }
+  
+  /* tags */
   .tag {
     display: inline-block;
-    background: #e0f2f1;
-    color: #0f766e;
-    padding: 0.12rem 0.55rem;
+    background: #f1e8c7;
+    color: #4d3a00;
+    padding: 0.18rem 0.6rem;
     border-radius: 9999px;
-    font-size: 0.65rem;
-    margin-right: 0.25rem;
-    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    margin-right: 0.3rem;
+    margin-top: 0.3rem;
+  }
+  
+  /* subtle horizontal divider between timeline entries */
+  .tk-timeline hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, #cfc2a3, transparent);
+    margin: 1.5rem 0;
+    opacity: 0.6;
   }
   
   /* ====== SCHOLAR BUTTON ====== */
@@ -101,11 +132,11 @@
     display: inline-block;
     background-color: #150447;
     color: #fff;
-    padding: 0.55rem 0.9rem;
+    padding: 0.6rem 1rem;
     border-radius: 6px;
     text-decoration: none;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     transition: background-color 0.2s ease;
     margin-top: 0.8rem;
   }
@@ -114,12 +145,27 @@
     background-color: #0f0a2e;
   }
   
-  /* ====== GLOBAL BG ====== */
+  /* ====== GLOBAL BACKGROUND (PAPER READING MODE) ====== */
   body {
-    background-color: #f8f7f3;
+    background-color: #f7f1df;  /* soft creamy paper yellow */
+    color: #1a1308;
+    font-family: "Georgia", "Inter", serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    background-image: radial-gradient(circle at top left, #faf4e0 0%, #f7f1df 100%);
   }
   
-  /* ====== RESPONSIVE ====== */
+  /* faint paper texture and vignette */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.04) 100%);
+    mix-blend-mode: multiply;
+  }
+  
+  /* ====== RESPONSIVE DESIGN ====== */
   @media (max-width: 900px) {
     .hero-section {
       flex-direction: column;
@@ -137,6 +183,7 @@
       max-width: 100%;
       margin-left: 0;
       margin-right: 0;
+      font-size: 0.95rem;
     }
   }
   
